@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simple E-Commerce Store</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f5f5f5;
+    }
+    header {
+        background: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    nav {
+        background: #333;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        margin: 15px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    section {
+        background: white;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .product {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 15px 0;
+        border-radius: 5px;
+    }
+    .btn {
+        background: #4CAF50;
+        color: white;
+        padding: 8px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>🛒 My Simple E-Commerce Store</h1>
+    <p>Affordable Products. Quick Checkout.</p>
+</header>
+
+<nav>
+    <a href="#products">Products</a>
+    <a href="#cart">Cart</a>
+    <a href="#checkout">Checkout</a>
+</nav>
+
+<!-- Products Section -->
+<section id="products">
+    <h2>Products</h2>
+
+    <div class="product">
+        <h3>Smart Watch - ₹999</h3>
+        <p>Tracks steps, heart rate, and notifications.</p>
+        <button class="btn">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h3>Cotton T-Shirt - ₹399</h3>
+        <p>Comfortable and stylish everyday wear.</p>
+        <button class="btn">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h3>Handmade Wooden Keychain - ₹149</h3>
+        <p>Crafted with love and perfect as a gift.</p>
+        <button class="btn">Add to Cart</button>
+    </div>
+</section>
+
+<!-- Cart Section -->
+<section id="cart">
+    <h2>Your Shopping Cart</h2>
+    <p>No dynamic functions added (simple beginner version).</p>
+    <p>You can list items here manually.</p>
+
+    <p><strong>Example:</strong></p>
+    <ul>
+        <li>Smart Watch - ₹999</li>
+        <li>Cotton T-Shirt - ₹399</li>
+    </ul>
+
+    <p><strong>Total: ₹1398</strong></p>
+</section>
+
+<!-- Checkout Section -->
+<section id="checkout">
+    <h2>Checkout</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Address:</label><br>
+        <textarea required></textarea><br><br>
+
+        <label>Phone:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Payment Method:</label><br>
+        <select>
+            <option>Cash on Delivery</option>
+            <option>Credit/Debit Card</option>
+            <option>UPI</option>
+        </select><br><br>
+
+        <button class="btn">Place Order</button>
+    </form>
+</section>
+
+<footer style="text-align:center; padding:15px; background:#333; color:white;">
+    © 2025 My Simple E-Commerce Store
+</footer>
+
+</body>
+</html>
